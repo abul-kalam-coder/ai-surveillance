@@ -1,7 +1,7 @@
 <html>
 <head>
 
-	<title>Object Detection</title>
+	<title>AI Video Surveillance</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,13 +15,20 @@
 </head>
 
 <body background="background.jpg" >
-  <center>
-    <h1 class="btn btn-info heading" >Object Detection</h1>
-<h3 class="btn btn-danger " id="status"> </h3>
-<h3 id="no_of_objects" class="btn btn-primary" ></h3>
-  </center>
+<center>
+<h1 class="btn head">AI Video Surveillance</h1>
+<br><br>
+<button class="btn btn-success start" onclick="detect()" >start</button>
+<br><br>
+  <h3 id="status" class="btn btn-warning" ></h3>
+  <br><br>
+<h3 id="no_of_objects" class="btn btn-warning" ></h3>
 
-  <script src="main.js"></script>
+
+</center>
+
+<script src="main.js"></script>
 
 </body>
+
 </html>
